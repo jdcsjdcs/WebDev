@@ -1,3 +1,14 @@
 body {
-    background-color: #7a928e;
+    background-color: #457b9d;
+    color: #f1faee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+}
+
+p {
+    font-size: medium;
 }

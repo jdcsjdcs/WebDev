@@ -9,6 +9,7 @@ button {
     color: #adb5bd;
     background-color: #343a40;
     border-radius: 20%;
+
 }
 
 img {
@@ -29,4 +30,5 @@ h1 {
 
 p {
     font-weight: 400;
+    color: rgb(204, 215, 215);
 }

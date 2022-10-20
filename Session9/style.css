@@ -1,18 +1,97 @@
 body {
     background-image: url(images/background.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 72, 72);
 }
 
-.navigation {
+.navigation ul {
+    margin-top: 2em;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.2em;
 }
 
-.sub_nav {
+.logo {
+    width: 100%;
+}
+
+.cart {
+    width: 35%;
+}
+
+.container {
+    height: 50vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    text-justify: auto;
+}
+
+.links li {
+    margin: 1.4em;
+}
+
+.links {
+    margin-right: auto;
+    align-self: center;
+}
+
+.links img {
+    width: 1.5em;
+}
+
+.main_img img {
+    width: 900px;
+    justify-self: flex-end;
+
+}
+
+.main_text {
+    margin-left: 2em;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 0.7em;
+    color: white;
+    border: none;
+    letter-spacing: 0.2em;
+    font-size: medium;
+    background-image: linear-gradient(45deg, rgb(52, 180, 245), rgb(216, 103, 216))
+}
+
+.nav_arrows {
+    display: flex;
+    margin: 2em
+}
+
+.nav_arrows img {
+    width: 2em;
+    margin: 1em 1.5em;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.7em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.cat {
+    margin-right: 23em;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 1.3em;
 }

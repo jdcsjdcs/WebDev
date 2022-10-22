@@ -5,36 +5,50 @@ body {
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(78, 72, 72);
+    margin: 0 auto;
+    height: 100vh;
+
 }
 
-.navigation ul {
+.navigation {
     margin-top: 2em;
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.2em;
 }
 
+.navigation ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
-    width: 100%;
+    width: 10%;
+    margin: 0 5em;
 }
 
 .cart {
-    width: 35%;
+    width: 3%;
+    margin-left: auto;
 }
 
 .container {
-    height: 50vw;
+    margin: 2em;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .links ul {
     list-style-type: none;
     padding: 0;
-    text-justify: auto;
 }
 
 .links li {
@@ -42,6 +56,7 @@ body {
 }
 
 .links {
+    width: 10%;
     margin-right: auto;
     align-self: center;
 }
@@ -50,14 +65,17 @@ body {
     width: 1.5em;
 }
 
-.main_img img {
-    width: 900px;
-    justify-self: flex-end;
+.main_img {
+    width: 60%;
+}
 
+.main_img img {
+    width: 100%;
+    justify-self: flex-end;
 }
 
 .main_text {
-    margin-left: 2em;
+    width: 30%;
 }
 
 button {
@@ -72,11 +90,11 @@ button {
 
 .nav_arrows {
     display: flex;
-    margin: 2em
+    margin: 3em;
 }
 
 .nav_arrows img {
-    width: 2em;
+    width: 2.5em;
     margin: 1em 1.5em;
 }
 
@@ -85,10 +103,6 @@ h1 {
     font-size: 1.7em;
     margin-top: 2em;
     margin-bottom: 1.5em;
-}
-
-.cat {
-    margin-right: 23em;
 }
 
 p {

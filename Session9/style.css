@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     background-image: url(images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +29,7 @@ body {
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
     margin: 0 5em;
 }
 
@@ -70,8 +71,7 @@ body {
 }
 
 .main_img img {
-    width: 100%;
-    justify-self: flex-end;
+    max-width: 80%;
 }
 
 .main_text {
@@ -84,7 +84,7 @@ button {
     color: white;
     border: none;
     letter-spacing: 0.2em;
-    font-size: medium;
+    font-size: 1.3em;
     background-image: linear-gradient(45deg, rgb(52, 180, 245), rgb(216, 103, 216))
 }
 

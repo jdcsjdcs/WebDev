@@ -1,0 +1,19 @@
+body {
+    background-color: #457b9d;
+    margin: 0, auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h1 {
+    text-align: center;
+    margin: 2em;
+}
+
+#bmi {
+    color: #f1faee;
+    font-size: 1.5em;
+    margin-top: 2em;
+
+}

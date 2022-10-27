@@ -1,7 +1,7 @@
 function price() {
     document.querySelector('.cong_pic').src = 'beer.jpg'
-    let price_btn = document.querySelector('#price_btn');
-    price_btn.style.display = 'none';
+    let priceBtn = document.querySelector('#price_btn');
+    priceBtn.style.display = 'none';
 
     let h3 = document.createElement('h3');
     h3.innerText = 'Enjoy!';
@@ -12,14 +12,13 @@ function price() {
     p.innerText = 'Some more?';
     document.body.append(p);
 
-    let yes_btn = document.createElement('button');
-    yes_btn.innerText = 'yes, please';
-    document.body.append(yes_btn);
-    // yes_btn.onclick = document.body.append(beer.jpg);
+    let yesBtn = document.createElement('button');
+    yesBtn.innerText = 'yes, please';
+    document.body.append(yesBtn);
 
-    let no_btn = document.createElement('button');
-    no_btn.innerText = 'no, thanks';
-    document.body.append(no_btn);
+    let noBtn = document.createElement('button');
+    noBtn.innerText = 'no, thanks';
+    document.body.append(noBtn);
 }
 
 

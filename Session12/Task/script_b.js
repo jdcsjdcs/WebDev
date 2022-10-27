@@ -1,4 +1,4 @@
 function leftBtn() {
-    window.confirm('Are you sure?');
-    window.confirm('Think Again');
+    confirm('Are you sure?');
+    confirm('Think Again');
 }

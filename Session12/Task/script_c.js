@@ -1,3 +1,3 @@
 function enterBtn() {
-    window.confirm('Sure?');
+    confirm('Sure?');
 }

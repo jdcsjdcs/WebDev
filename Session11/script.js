@@ -3,7 +3,7 @@ let list = []
 
 function add_to_list() {
 
-    let item = document.querySelector("input").value;
+    const item = document.querySelector("#item").value;
 
     if (list.includes(item)) {
         alert('item is already on the list');
@@ -16,7 +16,7 @@ function add_to_list() {
         li.innerText = item;
         let ul = document.querySelector('ul');
         ul.append(li);
-        document.getElementById('item').value = '';
+        document.querySelector('#item').value = '';
     }
 }
 

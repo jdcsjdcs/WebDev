@@ -1,3 +1,9 @@
+let img = document.querySelector('img');
+
 function enterBtn() {
-    confirm('Sure?');
+    img.style.width = '100px';
+    
+
 }
+
+setTimeout('1000');

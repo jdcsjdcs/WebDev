@@ -17,7 +17,7 @@ for (let button of buttons) {
             clearDisplay();
             calculated = false;
         }
-
+        
         if (choice === "C") {
             clear();
         } else if (choice === "AC") {
@@ -68,28 +68,28 @@ for (let button of buttons) {
 }
 
 function calculate() {
-    if (display.textContent.indexOf("+") !== -1) {
+    if (display.textContent.includes("+")) {
         [num1, num2] = display.textContent.split("+");
         if (num2 === "") {
             display.textContent = "error: enter second number";
         } else {
             display.textContent = parseFloat(num1) + parseFloat(num2);
         }
-    } else if (display.textContent.indexOf("-") !== -1) {
+    } else if (display.textContent.includes("-")) {
         [num1, num2] = display.textContent.split("-");
         if (num2 === "") {
             display.textContent = "error: enter second number";
         } else {
             display.textContent = parseFloat(num1) - parseFloat(num2);
         }
-    } else if (display.textContent.indexOf("*") !== -1) {
+    } else if (display.textContent.includes("*")) {
         [num1, num2] = display.textContent.split("*");
         if (num2 === "") {
             display.textContent = "error: enter second number";
         } else {
             display.textContent = parseFloat(num1) * parseFloat(num2);
         }
-    } else if (display.textContent.indexOf("/") !== -1) {
+    } else if (display.textContent.includes("/")) {
         [num1, num2] = display.textContent.split("/");
 
         // divide by zero error message

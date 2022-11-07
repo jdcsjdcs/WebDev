@@ -26,15 +26,21 @@ for (let button of buttons) {
             calculate();
             calculated = true;
 
-        // to pevent display more opereators
+            // to pevent display more opereators
         } else if (
             operators.includes(choice) &&
-            ([...display.textContent].some((input) => operators.includes(input)) || display.textContent[display.textContent.length - 1] === ".")
+            ([...display.textContent].some((input) =>
+                operators.includes(input)
+            ) ||
+                display.textContent[display.textContent.length - 1] === ".")
         ) {
             display.append("");
         } else if (
             choice === "." &&
-            (display.textContent[display.textContent.length - 1] === "." || operators.includes(display.textContent[display.textContent.length - 1]))
+            (display.textContent[display.textContent.length - 1] === "." ||
+                operators.includes(
+                    display.textContent[display.textContent.length - 1]
+                ))
         ) {
             display.append("");
         } else if (
@@ -52,7 +58,7 @@ for (let button of buttons) {
         ) {
             display.append("");
 
-        // to prevent numbers after 0
+            // to prevent numbers after 0
         } else if (display.textContent === "0" && numbers.includes(choice)) {
             display.append("");
         } else {
